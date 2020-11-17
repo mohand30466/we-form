@@ -1,0 +1,374 @@
+.tittles {
+  display: flex;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  color: white;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+  font-size: 2rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 300;
+}
+div {
+  align-items: center;
+  color: #00a0dc;
+  font-size: 1.2rem;
+  margin-top: 1px;
+}
+.logo {
+  width: 4rem;
+  height: 2.5rem;
+  border-radius: 5%;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSn90GoyJXJedW5wjcC7c95606f1ABwTiLrbA&usqp=CAU");
+ 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.create {
+
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+
+  width: 90%;
+  height: 71vh;
+  /* background-color: #188fd4; */
+  background-color: white;
+}
+
+.input {
+  width: 18rem;
+  height: 2.5rem;
+  margin-top: 3%;
+  /* margin-left: 1px; */
+}
+.inputad {
+  width: 18rem;
+  height: 2.5rem;
+  margin-top: 2%;
+  /* margin-left: 1px; */
+}
+.inputvn {
+  width: 18rem;
+  height: 2.5rem;
+  margin-top: 2%;
+  /* margin-left: 1px; */
+}
+.inputag {
+  width: 18rem;
+  height: 2.5rem;
+  margin-top: 2%;
+  /* margin-left: 1px; */
+}
+.inputco {
+  width: 18rem;
+  height: 2.5rem;
+  margin-top: 2%;
+  margin-left: 1px;
+}
+.inputrs {
+  width: 18rem;
+  height: 2.5rem;
+  margin-top: 2%;
+  /* margin-left: 1px; */
+}
+
+.submit {
+  width: 18.5rem;
+  height: 2.5rem;
+  margin-top: 2%;
+  margin-left: 1px;
+  background-color: #00a0dc;
+  color: white;
+}
+label {
+  color: white;
+}
+@media only screen and (min-width: 736px) {
+  .tittles {
+    display: flex;
+  }
+  
+  .title {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  h1 {
+    font-size: 3rem;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 300;
+  }
+  div {
+    align-items: center;
+    color: #00a0dc;
+    font-size: 1.2rem;
+    margin-top: 1px;
+  }
+  .logo {
+    width: 4rem;
+    height: 2.5rem;
+    border-radius: 5%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSn90GoyJXJedW5wjcC7c95606f1ABwTiLrbA&usqp=CAU");
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .create {
+    background-color: #006466;
+   
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+    width: 52%;
+    height: 70vh;
+  }
+
+  .input {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 32rem;
+    height: 3.5rem;
+    margin-top: 2%;
+    margin-left: 4px;
+    
+  }
+  .inputad {
+    width: 32rem;
+    height: 3.5rem;
+    margin-top: 2%;
+    margin-left: 4px;
+  }
+  .inputvn {
+    width: 32rem;
+    height: 3.5rem;
+    margin-top: 2%;
+    margin-left: 4px;
+  }
+  .inputag {
+    width: 32rem;
+    height: 3.5rem;
+    margin-top: 2%;
+    margin-left: 4px;
+  }
+  .inputco {
+    width: 32rem;
+    height: 3.5rem;
+    margin-top: 2%;
+    margin-left: 4px;
+  }
+  .inputrs {
+    width: 32rem;
+    height: 3.5rem;
+    margin-top: 2%;
+    margin-left: 4px;
+  }
+  .submit {
+    width: 32.5rem;
+    height: 3.5rem;
+    margin-top: 2%;
+    margin-left: 4px;
+    background-color: #00a0dc;
+    color: white;
+  }
+}
+/* ///////////////////////////////////////// */
+/* this meadia for full screen */
+@media only screen and (min-width: 1366px) {
+  .tittles {
+    display: flex;
+  }
+  
+  .title {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  h1 {
+    font-size: 3rem;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 300;
+  }
+  div {
+    align-items: center;
+    color: #00a0dc;
+    font-size: 1.2rem;
+    margin-top: 1px;
+  }
+  .logo {
+    width: 4rem;
+    height: 2.5rem;
+    border-radius: 5%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSn90GoyJXJedW5wjcC7c95606f1ABwTiLrbA&usqp=CAU");
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .create {
+    background-color: rgb(255, 253, 255);
+
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+   
+    width: 35%;
+    height: 72vh;
+  }
+
+  .input {
+    width: 32rem;
+    height: 3.5rem;
+    margin-top: 2%;
+    margin-left: 4px;
+  }
+  .inputad {
+    width: 32rem;
+    height: 3.5rem;
+    margin-top: 2%;
+    margin-left: 4px;
+  }
+  .inputvn {
+    width: 32rem;
+    height: 3.5rem;
+    margin-top: 2%;
+    margin-left: 4px;
+  }
+  .submit {
+    width: 32.5rem;
+    height: 3.5rem;
+    margin-top: 2%;
+    margin-left: 4px;
+    background-color: #00a0dc;
+    color: white;
+  }
+  .inputag {
+    width: 32rem;
+    height: 3.5rem;
+    margin-top: 2%;
+    margin-left: 4px;
+  }
+  .inputco {
+    width: 32rem;
+    height: 3.5rem;
+    margin-top: 2%;
+    margin-left: 4px;
+  }
+  .inputrs {
+    width: 32rem;
+    height: 3.5rem;
+    margin-top: 2%;
+    margin-left: 4px;
+  }
+}
+/* ////////////////////////////////////////////////////// */
+/* @media only screen and (max-width: 1000px) { */
+  /* .tittles {
+    display: flex;
+  }
+  
+  .title {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  h1 {
+    font-size: 3rem;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 300;
+  }
+  div {
+    align-items: center;
+    color: #00a0dc;
+    font-size: 1.2rem;
+    margin-top: 1px;
+  }
+  .logo {
+    width: 4rem;
+    height: 2.5rem;
+    border-radius: 5%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSn90GoyJXJedW5wjcC7c95606f1ABwTiLrbA&usqp=CAU");
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .create {
+    background-color: rgb(255, 253, 255);
+
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+   
+    width: 43%;
+    height: 72vh;
+  }
+
+  .input {
+    width: 32rem;
+    height: 3.5rem;
+    margin-top: 2%;
+    margin-left: 4px;
+  }
+  .inputad {
+    width: 32rem;
+    height: 3.5rem;
+    margin-top: 2%;
+    margin-left: 4px;
+  }
+  .inputvn {
+    width: 32rem;
+    height: 3.5rem;
+    margin-top: 2%;
+    margin-left: 4px;
+  }
+  .submit {
+    width: 32.5rem;
+    height: 3.5rem;
+    margin-top: 2%;
+    margin-left: 4px;
+    background-color: #00a0dc;
+    color: white;
+  }
+  .inputag {
+    width: 32rem;
+    height: 3.5rem;
+    margin-top: 2%;
+    margin-left: 4px;
+  }
+  .inputco {
+    width: 32rem;
+    height: 3.5rem;
+    margin-top: 2%;
+    margin-left: 4px;
+  }
+  .inputrs {
+    width: 32rem;
+    height: 3.5rem;
+    margin-top: 2%;
+    margin-left: 4px;
+  }
+
+
+
+} */
+

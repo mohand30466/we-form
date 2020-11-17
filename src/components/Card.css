@@ -1,0 +1,21 @@
+.containerCard{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    width: 11.5rem;
+    height: 16rem;
+    background-color: slateblue;
+
+}
+img{
+    height: 8rem;
+    width: 11.5rem;
+}
+.title{
+    color: white;
+    margin-left: 1rem;
+}
+.tittle{
+    color: white;
+    margin-left: 2rem;
+    
+}
