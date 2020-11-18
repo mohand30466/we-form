@@ -38,7 +38,7 @@ div {
   justify-items: center;
 
   width: 90%;
-  height: 71vh;
+  height: 61vh;
   /* background-color: #188fd4; */
   background-color: white;
 }
@@ -91,7 +91,7 @@ div {
 label {
   color: white;
 }
-@media only screen and (min-width: 736px) {
+@media only screen and (min-width: 800px) {
   .tittles {
     display: flex;
   }
@@ -101,23 +101,23 @@ label {
     justify-content: center;
     margin: auto;
     color: white;
-    font-size: 2rem;
+    font-size: 1.9rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   h1 {
-    font-size: 3rem;
+    font-size: 1.9rem;
     font-family: "Times New Roman", Times, serif;
     font-weight: 300;
   }
   div {
     align-items: center;
     color: #00a0dc;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-top: 1px;
   }
   .logo {
-    width: 4rem;
-    height: 2.5rem;
+    width: 3rem;
+    height: 2rem;
     border-radius: 5%;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSn90GoyJXJedW5wjcC7c95606f1ABwTiLrbA&usqp=CAU");
    
@@ -126,31 +126,31 @@ label {
     background-size: cover;
   }
   .create {
-    background-color: #006466;
+    background-color: #ebf3f3;
    
     display: flex;
     justify-content: center;
     justify-items: center;
 
-    width: 52%;
-    height: 70vh;
+    width: 40%;
+    height: 80vh;
   }
 
   .input {
     display: flex;
     justify-content: center;
     justify-items: center;
-    width: 32rem;
-    height: 3.5rem;
-    margin-top: 2%;
-    margin-left: 4px;
+    width: 90%;
+    height: 2.5rem;
+    margin-top: 1%;
+    margin-left: 20px;
     
   }
   .inputad {
-    width: 32rem;
-    height: 3.5rem;
-    margin-top: 2%;
-    margin-left: 4px;
+    width: 90%;
+    height: 2.5rem;
+    margin-top: 1%;
+    margin-left: 20px;
   }
   .inputvn {
     width: 32rem;
@@ -159,26 +159,26 @@ label {
     margin-left: 4px;
   }
   .inputag {
-    width: 32rem;
-    height: 3.5rem;
-    margin-top: 2%;
-    margin-left: 4px;
+    width: 90%;
+    height: 2.5rem;
+    margin-top: 1%;
+    margin-left: 20px;
   }
   .inputco {
-    width: 32rem;
-    height: 3.5rem;
-    margin-top: 2%;
-    margin-left: 4px;
+    width: 90%;
+    height: 2.5rem;
+    margin-top: 1%;
+    margin-left: 20px;
   }
   .inputrs {
-    width: 32rem;
-    height: 3.5rem;
-    margin-top: 2%;
-    margin-left: 4px;
+    width: 90%;
+    height: 2.5rem;
+    margin-top: 1%;
+    margin-left: 20px;
   }
   .submit {
-    width: 32.5rem;
-    height: 3.5rem;
+    width: 30rem;
+    height: 2.9rem;
     margin-top: 2%;
     margin-left: 4px;
     background-color: #00a0dc;
